@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "allowNonTsExtensions": true,
+    "module": "ES6",
+    "sourceMap": true,
+    "isolatedModules": true,
+    "noEmitOnError": false,
+    "rootDir": ".",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true
+  },
+  "compileOnSave": false
+}
