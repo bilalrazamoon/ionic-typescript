@@ -27,7 +27,7 @@ class ChatsCtrl{
 /**
  * ChatDetailCtrl
  */
-/*class ChatDetailCtrl {
+class ChatDetailCtrl {
   public $inject = ['Chats','$stateParams'];
   chat: Services.IChatUser;
   constructor(
@@ -36,7 +36,7 @@ class ChatsCtrl{
     ) {
     this.chat = Chats.get($stateParams['chatId']);
   }
-}*/
+}
 
 /**
  * AccountCtrl
@@ -53,5 +53,5 @@ class AccountCtrl {
 angular.module('starter.controllers', [])
   .controller('DashCtrl', DashCtrl)
   .controller('ChatsCtrl', ChatsCtrl)
-  //.controller('ChatDetailCtrl', ChatDetailCtrl)
+  .controller('ChatDetailCtrl', ChatDetailCtrl)
   .controller('AccountCtrl', AccountCtrl);
